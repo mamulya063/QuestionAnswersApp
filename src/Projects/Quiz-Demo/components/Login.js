@@ -15,7 +15,6 @@ const Login = ({
          
       }
       const handleCatChange = (e)=>{
-          setSelectedLang(e.target.value)
           setSelectedGender(e.target.value)
       }
 

@@ -14,7 +14,7 @@ const Home = () => {
     const [IsUserLogged,setIsUserLogged] = useState(false)
     const [initialQuetions,setInitialQuetions] = useState(data)
     // const [userSelectedQuetions,setUserSelectedQuetions] = useState([])
-    const [selectedGender,setSelectedGender] = useState('female')
+    const [selectedGender,setSelectedGender] = useState('male')
     const [age,setAge] = useState(0)
     const [error,setError] = useState(false)
 
